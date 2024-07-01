@@ -69,7 +69,6 @@ nav a {
 
 .picture img {
 	width: 100%;
-
 }
 #about-me {
 	flex: 2
@@ -212,7 +211,7 @@ nav a {
 	width: 374px;
 	height: 329px;
 	position: absolute;
-	bottom: 0;
+	bottom: 97px;
 	right: 0;
 	z-index: -1;
 }
@@ -248,7 +247,12 @@ input[type="submit"] {
 	background-color: #BEB45A;
 	padding: .5em 1em
 }
-
+h5 {
+	margin-left: 0.83em;
+}
+.contact{
+	margin-left: 1em;
+}
 @media all and (max-width: 1180px) {
 	.picture {
 		flex : 2;
