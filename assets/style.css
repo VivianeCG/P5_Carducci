@@ -104,7 +104,7 @@ nav a {
 	border-radius:0 ;
 }
 .nav-pills .nav-link.active-tag {
-    color: #fff;
+    color: black;
     background-color: #BEB45A;
     border-radius: 0;
 }
