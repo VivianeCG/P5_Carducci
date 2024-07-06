@@ -9,22 +9,22 @@
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Inter&family=Spectral:ital,wght@0,400;1,300;1,400;1,800&display=swap" rel="stylesheet">
 	<meta charset="UTF-8">
-	<meta name="description" content="Nina Carducci, photographe, propose de faire des moments importants de votre vie des instants inoubliables grâce à son regard, sonapproche et sa technique.">
+	<meta name="description" content="Nina Carducci, photographe, propose de faire des moments importants de votre vie des instants inoubliables grâce à son regard, son approche et sa technique.">
 	<script src="./assets/bootstrap/bootstrap.bundle.js"></script>
 	<script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
 	<script src="./assets/maugallery.js"></script>
 	<script src="./assets/scripts.js"></script>
 </head>
 <body>
-	<header class="top-header">
-		<h1 class="name">Nina Carducci</h1>
+	<header class="top-header" itemscope itemtype="https://schema.org/SocialMediaPosting">
+		<h1 class="name" itemprop="author" itemscope itemtype="https://schema.org/Person">Nina Carducci</h1>
 		<nav>   
-			<ul>
+			<ul >
 				<li><a href="#about">À propos</a></li>
 				<li><a href="#gallery">Galerie</a></li>
 				<li><a href="#services">Service</a></li>
 				<li><a href="#contact">Contact</a></li>
-				<li><a class="social-link" itemscope itemtype="https://schema.org/SocialMediaPosting" href="https://www.instagram.com/ninacarducci.photo/?hl=fr" target="_blank"><img src="assets/images/instagram.webp" alt="logo d'Instagram"></a></li>
+				<li><a class="social-link" href="https://www.instagram.com/ninacarducci.photo/?hl=fr" target="_blank"><img src="assets/images/instagram.webp" alt="logo d'Instagram" itemprop="image"></a></li>
 			</ul>
 		</nav>
 	</header>
@@ -71,11 +71,11 @@
 					sizes="(max-width: 256px) 256px,
 							(max-width: 560px) 560px,
 							890px"
-					alt="portrait de Nina Carducci">
+					alt="portrait de Nina Carducci" itemprop="images">
 			</div>
 			<div id="about-me">
 				<h2 class="about-me__title">A propos de moi</h2>
-				<p><strong class="about-me__introduction">Devenir photographe était pour moi une évidence. Comme si j’y étais prédestinée. Saisir un moment, une émotion, une situation, un endroit, une lumière et les rendre immortels, voilà ce qui me fait vibrer.</strong>
+				<p><strong class="about-me__introduction" itemprop="text">Devenir photographe était pour moi une évidence. Comme si j’y étais prédestinée. Saisir un moment, une émotion, une situation, un endroit, une lumière et les rendre immortels, voilà ce qui me fait vibrer.</strong>
 				<br>Nous passons notre vie à chercher le bonheur, et lorsque nous y touchons, nous n’avons qu’une envie : le figer au travers de photographies pour le savourer avec les personnes qui sont importantes à nos yeux, ou le partager au plus grand nombre.
 					C’est ce que je vous propose : saisir ces merveilleux moments au travers de mon regard, mon approche, ma technique. Rendre ces moments immortels, afin que vous puissiez y puiser de l’amour, du bonheur, de la tendresse et de lumière à chaque fois que vous poserez les yeux sur vos photos.
 				</p>
@@ -127,7 +127,7 @@
 					<img data-gallery-tag="Portrait" class="gallery-item" src="./assets/images/gallery/portraits/ade-tunji-homme-barbu-unsplash-1090w.webp"
 						srcset="./assets/images/gallery/portraits/ade-tunji-homme-barbu-unsplash-254w.webp 254w,
 								./assets/images/gallery/portraits/ade-tunji-homme-barbu-unsplash-448w.webp 448w,
-								./assets/images/gallery/portraits/ade-tunji-homme-barbu-unsplash-608w.webp 608,
+								./assets/images/gallery/portraits/ade-tunji-homme-barbu-unsplash-608w.webp 608w,
 								./assets/images/gallery/portraits/ade-tunji-homme-barbu-unsplash-728w.webp 728w,
 								./assets/images/gallery/portraits/ade-tunji-homme-barbu-unsplash-848w.webp 848w"
 						sizes="(max-width: 254px) 254px,
